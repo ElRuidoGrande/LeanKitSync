@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Galaxy-Nexus" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LeanKitSync\ViewModels\LoginViewModel.cs">
+    <Files>
+      <File FileName="LeanKitSync\Pages\HomePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="LeanKitSync\ViewModels\CardViewModel.cs" Line="43" Column="43" />
+      <File FileName="LeanKitSync\Pages\CardPage.xaml" Line="1" Column="1" />
+      <File FileName="LeanKitSync\Pages\CardsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="LeanKitSync\Controls\BindablePicker.cs" Line="1" Column="1" />
+      <File FileName="LeanKitSync\Pages\CardPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="LeanKitSync\obj\Debug\CardPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="LeanKitSync.iOS\Services\ReminderService.cs" Line="1" Column="1" />
+      <File FileName="LeanKitSync\ViewModels\LoginViewModel.cs" Line="3" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Tests\BoardTests.cs" line="20" column="1" />
+      <Breakpoint file="C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync\ViewModels\HomeViewModel.cs" line="85" column="1" />
+      <Breakpoint file="C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync\ViewModels\CardViewModel.cs" line="106" column="1" />
+      <Breakpoint file="/Users/raymond/Projects/LeanKitSync/LeanKitSync/ViewModels/CardListViewModel.cs" line="66" column="1" />
+      <Breakpoint file="/Users/raymond/Projects/LeanKitSync/LeanKitSync/ViewModels/CardViewModel.cs" line="126" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Android\Services\ReminderService.cs" line="55" offsetX="333" offsetY="864" expression="cursor" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	x:Class="LeanKitSync.CardsPage"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:LeanKitSync;assembly=LeanKitSync"
+	xmlns:localControls="clr-namespace:LeanKitSync.Controls;assembly=LeanKitSync"
+	xmlns:localConverters="clr-namespace:LeanKitSync.Converters;assembly=LeanKitSync"
+	BackgroundColor="{x:Static local:AppConstants.ContentPageBackgroundColor}"
+	Title="{Binding Title}"
+	>
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<localConverters:DescriptionConverter x:Key="cnvDescription"></localConverters:DescriptionConverter>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+	<ContentPage.Content>
+		<StackLayout>
+	      	<localControls:TappableListView ItemsSource="{Binding Cards}"  
+				ItemClickCommand="{Binding CardSelectedCommand}"
+		      	SelectedItem="{Binding SelectedCard}" RowHeight="125"
+			> 
+	          	<ListView.ItemTemplate>
+	              	<DataTemplate>
+	              		<ViewCell>
+	              			<ViewCell.View>              				
+              				<StackLayout Spacing="0" >
+              					<StackLayout BackgroundColor="{x:Static local:AppConstants.CardTitleBackgroundColor}">
+									<Label Text="{Binding Title}" />  
+								</StackLayout>
+
+								<StackLayout VerticalOptions="FillAndExpand" BackgroundColor="{x:Static local:AppConstants.CardDescriptionBackgroundColor}">
+									<Label Text="{Binding Description, Converter={StaticResource cnvDescription}}" />         
+								</StackLayout>
+
+								<Label HeightRequest="5" />
+							</StackLayout>                   
+	              			</ViewCell.View>
+	              		</ViewCell>
+	              	</DataTemplate>
+				</ListView.ItemTemplate>
+	      	</localControls:TappableListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,4 @@
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Models\bin\Debug\LeanKitSync.Models.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Models\bin\Debug\LeanKitSync.Models.pdb
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Models\obj\Debug\LeanKitSync.Models.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Models\obj\Debug\LeanKitSync.Models.pdb

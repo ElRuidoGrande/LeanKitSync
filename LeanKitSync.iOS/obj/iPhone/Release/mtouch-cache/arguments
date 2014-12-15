@@ -1,0 +1,38 @@
+# Version: 8.4.0.16 (80e9ff7)
+# [first argument, ignore] # /Users/raymond/Projects/LeanKitSync/LeanKitSync.iOS/bin/iPhone/Release/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.16/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/raymond/Projects/LeanKitSync/LeanKitSync.iOS/obj/iPhone/Release/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-dev \
+	/Users/raymond/Projects/LeanKitSync/LeanKitSync.iOS/bin/iPhone/Release/LeanKitSynciOS.app \
+	-r \
+	/Users/raymond/Projects/LeanKitSync/LeanKitSync/bin/Release/LeanKitSync.dll \
+	-r \
+	/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Release/LeanKitSync.Core.dll \
+	-r \
+	/Users/raymond/Projects/LeanKitSync/LeanKitSync.Models/bin/Release/LeanKitSync.Models.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Users/raymond/Projects/LeanKitSync/packages/Xamarin.Forms.1.2.3.6257/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/raymond/Projects/LeanKitSync/packages/Xamarin.Forms.1.2.3.6257/lib/MonoTouch10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/raymond/Projects/LeanKitSync/packages/Xamarin.Forms.1.2.3.6257/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
+	-linksdkonly \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=armv7 \
+	/Users/raymond/Projects/LeanKitSync/LeanKitSync.iOS/bin/iPhone/Release/LeanKitSynciOS.exe \

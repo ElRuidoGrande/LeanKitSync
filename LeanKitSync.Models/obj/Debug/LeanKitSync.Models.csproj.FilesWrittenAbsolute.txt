@@ -1,0 +1,5 @@
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Models/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Models/bin/Debug/LeanKitSync.Models.dll.mdb
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Models/bin/Debug/LeanKitSync.Models.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Models/obj/Debug/LeanKitSync.Models.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Models/obj/Debug/LeanKitSync.Models.dll.mdb

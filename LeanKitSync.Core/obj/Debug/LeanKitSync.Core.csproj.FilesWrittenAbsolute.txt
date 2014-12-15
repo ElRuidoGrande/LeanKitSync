@@ -1,0 +1,11 @@
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/LeanKitSync.Core.dll.mdb
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/LeanKitSync.Core.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/obj/Debug/LeanKitSync.Core.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/obj/Debug/LeanKitSync.Core.dll.mdb
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/System.Net.Http.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/System.Net.Http.Extensions.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/System.Net.Http.Primitives.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/Newtonsoft.Json.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/LeanKitSync.Models.dll
+/Users/raymond/Projects/LeanKitSync/LeanKitSync.Core/bin/Debug/LeanKitSync.Models.dll.mdb

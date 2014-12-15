@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:LeanKitSync;assembly=LeanKitSync"
+	xmlns:localControls="clr-namespace:LeanKitSync.Controls;assembly=LeanKitSync"
+	x:Class="LeanKitSync.LoginPage"
+	Title="{Binding Title}"
+	BackgroundColor="{x:Static local:AppConstants.ContentPageBackgroundColor}"
+	>
+	<ContentPage.Content>
+    	<StackLayout  Spacing="20" Padding="20" VerticalOptions="Start">
+    		<ActivityIndicator x:Name="isBusyIndicator" IsVisible="{Binding IsBusy}"
+    			IsRunning="{Binding IsBusy}" />
+
+
+			<localControls:HappyEntry Placeholder="Account" Text="{Binding Account}"
+				TextColor="{x:Static local:AppConstants.EntryTextColor}"
+			 />
+
+    		<Entry x:Name="entryUserName" Placeholder="Username" Text="{Binding Username}"
+				BackgroundColor="{x:Static local:AppConstants.EntryBackground}"
+    			TextColor="{x:Static local:AppConstants.EntryTextColor}" />
+			<Entry x:Name="entryPassword" Placeholder="Password" IsPassword="true" Text="{Binding Password}" 
+				BackgroundColor="{x:Static local:AppConstants.EntryBackground}"
+    			TextColor="{x:Static local:AppConstants.EntryTextColor}"
+			/>
+
+			<Button Text="Log In"
+				Command="{Binding LoginCommand}"
+				BackgroundColor="{x:Static local:AppConstants.SubmitButtonBackgroundColor}"
+				TextColor="{x:Static local:AppConstants.SubmitButtonTextColor}"
+			 />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{895BD53D-C7CB-4D5E-AF32-FF1469A59662}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LeanKitSync.Tests</RootNamespace>
+    <AssemblyName>LeanKitSync.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoardTests.cs" />
+    <Compile Include="CardTests.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\LeanKitSync\LeanKitSync.csproj">
+      <Project>{C73DE0B9-72D7-4DBF-ABF8-5A090EB6461E}</Project>
+      <Name>LeanKitSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LeanKitSync.Core\LeanKitSync.Core.csproj">
+      <Project>{7301D99F-A30C-430C-B7F5-28DEE4C05584}</Project>
+      <Name>LeanKitSync.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LeanKitSync.Models\LeanKitSync.Models.csproj">
+      <Project>{ACD871CC-0259-4D4A-AF27-8B738AAC0500}</Project>
+      <Name>LeanKitSync.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

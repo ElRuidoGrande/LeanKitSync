@@ -1,0 +1,17 @@
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\LeanKitSync.Core.dll.config
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\LeanKitSync.Core.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\LeanKitSync.Core.pdb
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\LeanKitSync.Models.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\System.Net.Http.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\LeanKitSync.Models.pdb
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\System.Net.Http.xml
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\obj\Debug\LeanKitSync.Core.csproj.App.config
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\obj\Debug\LeanKitSync.Core.csprojResolveAssemblyReference.cache
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\obj\Debug\LeanKitSync.Core.dll
+C:\Users\cunniray\Documents\Projects\LeanKitSync\LeanKitSync.Core\obj\Debug\LeanKitSync.Core.pdb

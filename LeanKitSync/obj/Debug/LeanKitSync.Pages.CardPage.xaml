@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	x:Class="LeanKitSync.CardPage"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:LeanKitSync;assembly=LeanKitSync"
+	xmlns:localControls="clr-namespace:LeanKitSync.Controls;assembly=LeanKitSync"
+	BackgroundColor="{x:Static local:AppConstants.ContentPageBackgroundColor}"
+	Title="{Binding Title}">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical">
+			<DatePicker Format="D" Date="{Binding SelectedDate}" /> 
+			<TimePicker Time="{Binding SelectedTime}" />
+
+
+			<Label Text="Select a calendar" />
+
+			<localControls:BindablePicker ItemsSource="{Binding ReminderContainers}"  
+			  	SelectedIndex="{Binding SelectedReminderIndex}" />			 
+
+	      	<Button Text="Add Reminder"
+      			Command="{Binding AddReminderCommand}"
+				BackgroundColor="{x:Static local:AppConstants.SubmitButtonBackgroundColor}"
+				TextColor="{x:Static local:AppConstants.SubmitButtonTextColor}"
+			/>	      	 
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
